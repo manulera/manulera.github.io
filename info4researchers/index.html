@@ -1,8 +1,8 @@
 <!doctype html><html lang=en-us>
 <head>
 <meta charset=utf-8>
-<title>Internships</title>
-<link rel=canonical href=https://www.genestorian.org/internship/ itemprop=url>
+<title>Info for Researchers</title>
+<link rel=canonical href=https://www.genestorian.org/info4researchers/ itemprop=url>
 <meta name=description content>
 <meta name=generator content="Hugo 0.92.2">
 <link rel="shortcut icon" href=https://www.genestorian.org/ type=image/x-icon>
@@ -10,12 +10,12 @@
 <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=5">
 <meta name=msapplication-TileColor content="#0AA8A7">
 <meta name=theme-color content="#fff">
-<meta name=twitter:title content="Internships">
+<meta name=twitter:title content="Info for Researchers">
 <meta name=twitter:description content>
-<meta property="og:title" content="Internships">
+<meta property="og:title" content="Info for Researchers">
 <meta property="og:description" content>
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.genestorian.org/internship/">
+<meta property="og:url" content="https://www.genestorian.org/info4researchers/">
 <meta http-equiv=x-dns-prefetch-control content="on">
 <link rel=preconnect href=//ajax.googleapis.com>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin=anonymous>
@@ -73,92 +73,100 @@ Genestorian
 <main>
 <section class="section pb-0">
 <div class="container text-center">
-<h1 class=display-3>Internships</h1>
+<h1 class=display-3>Info for Researchers</h1>
 </div>
 </section>
 <section class=section>
 <div class=container>
 <div class=row>
 <div class="col-lg-7 mx-auto">
-<div class=content><p>If you are here, you might be interested in doing an internship working on Genestorian.</p>
-<p>You might not know know much biology, but don&rsquo;t worry! An internship with us can also be an opportunity for you to learn about the fascinating world of genetics and genetic engineering. Here are some basics to understand the use-case we are trying to address.</p>
-<div class=toc>
-<nav id=TableOfContents>
+<div class=content><p>Genestorian will be an Open Source web application that will allow researchers to organise collections of model organism strains and recombinant DNA.</p>
+<h2 id=tracking-the-history-of-plasmids-and-strains>Tracking the history of plasmids and strains</h2>
+<p>The focus of Genestorian is on tracking the <strong>history of plasmids and strains</strong> in a collection. This involves keeping track of two lineages:</p>
 <ul>
-<li><a href=#a-video-summary>A video summary</a></li>
-<li><a href=#key-concepts-in-genetics-for-research>Key concepts in Genetics for research</a>
-<ul>
-<li><a href=#genetics-why>Genetics: why?</a></li>
-<li><a href=#genetics-how>Genetics: how?</a></li>
-</ul>
+<li>
+<p><strong>The lineages of sequences:</strong> How new sequences (in alleles or recombinant DNA) were generated from existing ones.</p>
 </li>
-<li><a href=#the-problem-we-are-solving>The problem we are solving</a>
-<ul>
-<li><a href=#how-we-want-to-solve-it>How we want to solve it</a></li>
-<li><a href=#what-you-can-do-during-your-internship>What you can do during your internship</a></li>
-</ul>
+<li>
+<p><strong>The lineages of strains:</strong> What alleles exist in a given strain, and how they were acquired.</p>
 </li>
 </ul>
-</nav>
-</div>
-<h2 id=a-video-summary>A video summary</h2>
-<p>In this video, the use case is explained for the general public in ~3 mins.</p>
-<div style=position:relative;padding-bottom:56.25%;height:0;overflow:hidden>
-<iframe src=https://www.youtube.com/embed/dh8XevL1Fbo style=position:absolute;top:0;left:0;width:100%;height:100%;border:0 allowfullscreen title="YouTube Video"></iframe>
-</div>
-<h2 id=key-concepts-in-genetics-for-research>Key concepts in Genetics for research</h2>
-<h3 id=genetics-why>Genetics: why?</h3>
-<p><strong>Genes</strong> are sequences of DNA that encode information to produce important biological molecules: RNA and proteins (<a href=https://en.wikipedia.org/wiki/Central_dogma_of_molecular_biology>read more</a>). These molecules are involved in cellular functions like generating energy, duplicating the genetic material, or moving cells and their components. Virtually all cellular processes involve a protein or RNA encoded by a gene.</p>
-<p><strong>Genetics</strong> is a branch of biology that uses a series of techniques to modify the DNA sequence of organisms (<strong>genetic engineering</strong>) in order to study <strong>gene functions</strong>. A classic genetic experiment is to remove the entire sequence of a gene from an organism and study the consequences of the absence of this gene. Processes that are perturbed when a gene is missing point to its <strong>gene function</strong>: the function of the RNA or protein encoded by the missing gene. Other gene modifications are possible. For example, DNA fragments can be removed from a gene to understand the function of the specific part of a protein encoded by that fragment. Another example is adding a marker DNA sequence to a gene so that the encoded protein becomes visible in a microscope. Such genetic modifications produce new <strong>gene variants, known as alleles</strong>.</p>
-<p>Certain species are frequently used in research, and are known as <strong>model organisms</strong>. Popular examples are the bacteria <em>E. coli</em> and the baker&rsquo;s yeast <em>S. cerevisiae</em>. For a certain model organism, several genetic variants exist, known as <strong>strains</strong>. An important concept in genetics is the concept of <strong>wild-type strain</strong>, a “normal” genetic variant of that organism for which the sequences of all genes are known. When a genetic modification is made in the wild-type strain, the resulting new strain is characterised by its <strong>genotype</strong>, which lists the non-wild-type <strong>alleles</strong> present in that new strain. For example, if we remove the gene named ase1 in a yeast wild-type strain, the genotype of the resulting new strain will be &ldquo;ase1Δ&rdquo; (&ldquo;Δ&rdquo; means that the gene has been removed).</p>
-<h3 id=genetics-how>Genetics: how?</h3>
-<p>That&rsquo;s all great, but how do you edit the DNA of an organism? For this, we use <strong>recombinant DNA</strong>, molecules of DNA that exist outside of cells and can be manipulated in the lab. There are multiple techniques that allow us to generate a desired DNA sequence, but they tipycally eiher combine pieces of existing recombinant DNA molecules or add small modifications. So every molecule of DNA always comes from another one. We could, for example combine two pieces of existing <strong>plasmids</strong> (circular DNA) to generate a new plasmid (see below). A way to this is by &ldquo;cutting and pasting&rdquo; the pieces of interest using <strong>restriction enzymes</strong> (scissors in the figure), molecules that cut the DNA at specific sequences.</p>
-<figure><img src=/images/plasmid_combination.svg alt=plasmid_combination width=300px>
-</figure>
-<p>Once we have our desired sequence, we can insert it or replace a fragment in the genome of an organism using <strong>genetic engineering</strong> methods.</p>
-<h2 id=the-problem-we-are-solving>The problem we are solving</h2>
-<p>We want to develop a web application for researchers to be able to track the <strong>ancestry</strong> of their plasmids and strains. Let&rsquo;s start with a practical example, depicted in the figure below.</p>
+<p>Let&rsquo;s imagine a typical case, in which we generate a new strain by integrating a fragment from a plasmid in a given locus. Then, we mate that strain to generate a new strain that contains a combination of the alleles of the parents:</p>
 <figure><img src=/images/genealogies.svg alt=genealogies width=250px>
 </figure>
-<p>First, we take a plasmid, and we replace a fragment of the 1st chromosome in the wild-type strain by a fragment from the plasmid. We have then generated:</p>
 <ol>
-<li>A new sequence / allele.</li>
-<li>A new strain.</li>
+<li>First, a new strain is generated by integrating a fragment of a plasmid in the genome. This creates a new allele sequence, and a new strain.</li>
 </ol>
-<figure><img src=/images/genealogies_1.svg alt=genealogies_1 width=250px>
+<figure><img src=/images/genealogies_1.svg alt=genealogies width=250px>
 </figure>
-<p>Then, we take this newly generated strain, and we cross it sexually with a strain from our collection that has a non-wild-type allele in chromosome 3. Among the offspring, we will find all combinations of the parent alleles, and we select a cell that has both alleles in chrosome 1 and 3 to stablish a new strain. This time we have generated only:</p>
+<ol start=2>
+<li>Second, a new strain is generated through mating. No new sequences are generated, but a new strain is generated in which existing alleles are combined in a new way.</li>
+</ol>
+<figure><img src=/images/genealogies_2.svg alt=genealogies width=250px>
+</figure>
+<p>If we keep track of the lineages of strains and sequences, we can easily navigate our collection and find out how an allele was generated, in which strain this allele is present, its sequence, etc. The ultimate objective is to be able to track the origin of all sequences of our collection up the wild-type sequences that generated them, or the sequences that were received from a repository or collaborator.</p>
+<h3 id=want-more-details>Want more details?</h3>
+<details>
+<summary> Click here to see prototypes of the functionality.</summary>
+<h4 id=prototype-of-strain-history>Prototype of strain history</h4>
+<p>Below you can find a video and a link to a <a href=https://prototype.genestorian.org/ target=_blank rel="noopener noreferrer">prototype</a> of Genestorian for strain collections. By clicking on a strain, we can access its alleles, and the related strains. We can also click on the alleles in the strain, and find out how they were generated, etc. Note that this prototype is only intended to show the use-case of allele tracking in fission yeast, and does not generate new sequences from parent sequences <em>in silico</em>.</p>
+<div style=text-align:center>
+<div style=position:relative;padding-bottom:56.25%;height:0;overflow:hidden>
+<iframe src=https://www.youtube.com/embed/34GMuHpl7f0 style=position:absolute;top:0;left:0;width:100%;height:100%;border:0 allowfullscreen title="YouTube Video"></iframe>
+</div>
+<a href=https://prototype.genestorian.org/ target=_blank class="btn btn-primary" rel="noopener noreferrer">Try this prototype yourself </a>
+</div>
+<h4 id=prototype-of-sequence-history>Prototype of sequence history</h4>
+<p>Below you can find a video and a link to a <a href=https://shareyourcloning.netlify.app/ target=_blank rel="noopener noreferrer">prototype</a> of ShareYourCloning, a tool that will be integrated in Genestorian, and will be used to document the generation of new sequences from existing ones. At this point it only supports a small amount of cloning strategies, but it illustrates the use-case.</p>
+<div style=text-align:center>
+<div style=position:relative;padding-bottom:56.25%;height:0;overflow:hidden>
+<iframe src=https://www.youtube.com/embed/HRQb6s8m8_s style=position:absolute;top:0;left:0;width:100%;height:100%;border:0 allowfullscreen title="YouTube Video"></iframe>
+</div>
+<a href=https://shareyourcloning.netlify.app/ target=_blank class="btn btn-primary" rel="noopener noreferrer" style=color:#fff>Try this prototype yourself </a>
+</div>
+</details>
+<details>
+<summary> Click here to know more about lineage tracking.</summary>
+<p>The application will have separated functionality for strains and recombinant DNA, so you will be able to use it for only recombinant DNA if your lab does not use strains (see figure below).</p>
+<p>The figure below representes how the information will be stored in the database. <span class=biological_resource>Biological resources</span> will be mapped to entities in a database. Abstract entities in the database referred to as <span class=abstract_entity>sources</span> will store the information of the strain/plasmid generation process. Genestorian will leverage <span class=bioinformatic_resource> bioinformatic resources</span> to access genomic DNA sequences (like the Ensembl API) or recombinant DNA repositories (like Addgene), and to generate allele and plasmid sequences from existing ones (in silico molecular biology libraries).</p>
+<figure><img src=/images/database.svg alt=database_image>
+</figure>
+</details>
+<details>
+<summary> Click here to see the Open Source tools we are using to build Genestorian.</summary>
+<ul>
+<li>To do cloning <em>in silico</em> we use <a href=https://github.com/BjornFJohansson/pydna target=_blank rel="noopener noreferrer">pydna</a>
+.</li>
+<li>To show sequence maps we use <a href=https://github.com/TeselaGen/openVectorEditor target=_blank rel="noopener noreferrer">openVectorEditor</a>
+.</li>
+<li>To store the information about molecular cloning, we use <code>json</code> format for now, but in the future we want to move to <a href=https://sbolstandard.org/ target=_blank rel="noopener noreferrer">SBOL</a>
+. SBOL is a very interesting web standard that has rich functionality to describe sequence features, much better than conventional formats like <code>.gb</code> or SnapGene&rsquo;s <code>.dna</code> format.</li>
+</ul>
+<p>SBOL provides abstract functionality for linking entities to their ancestors through an experimental step, but no specific implementations of concrete cloning steps exist. For example, for PCR amplification, there is neither an established way for linking the template sequence to the primers nor for specifying primer binding sites. Consequently, no software tools are available to systematically generate new entities from existing ones by reading experimental information. This also means that there is no way to verify that the relationships among entities described in a file are correct. We would like to work together with SBOL developers to extend this functionality, but developing a standard requires the consensus of a community and the exploration of many use-cases.</p>
+<p>To keep the development of Genestorian lean, we plan to progressively adopt SBOL. In a first step, we will keep our custom schema to describe the cloning steps and use SBOL for the sequences and their features. In the future, if consensual schemas emerge, we will introduce them into Genestorian.</p>
+</details>
+<h2 id=migrating-your-collection-to-genestorian>Migrating your collection to Genestorian</h2>
+<p>As researchers, we understand that this might sound interesting, but that moving your collection from a spreadsheet or equivalent software might seem overwhelming.</p>
+<figure><img src=/images/progressive_adoption.svg alt=database_image>
+</figure>
+<p>We will develop <strong>a progressive adoption system</strong> for strain collections, where strains in the old text format and new format can coexist. Strains will undergo up to four steps of documentation (see figure above):</p>
 <ol>
-<li>A new strain.</li>
+<li>Ancestry and progeny.</li>
+<li>Identification of plasmids and alleles listed in the genotype, along with their provenance</li>
+<li>Identification of resources used to modify the genomic DNA and generate a new allele</li>
+<li>DNA sequences of the alleles.</li>
 </ol>
-<figure><img src=/images/genealogies_2.svg alt=genealogies_2 width=250px>
-</figure>
-<p>So, when we say ancestry we actually mean two things:</p>
+<p>Starting with a strain spreadsheet, steps 1 and 2 can be partially automated. The rest will depend on the available information; but after step 2, it becomes possible to trace inheritance of alleles and plasmids, which is a major improvement over spreadsheets. Importantly, migrating a small fraction of key strains will be sufficient to get started. For example, among ~12,000 strains in the collection of my current laboratory, only 118 have been used over 20 times to generate new strains in the past 12 years.</p>
+<h2 id=planned-features>Planned features</h2>
 <ul>
-<li>
-<p>The ancestry of sequences: How new sequences (in alleles or recombinant DNA) were generated from existing ones.</p>
-</li>
-<li>
-<p>The ancestry of strains: What alleles exist in a given strain, and how they were acquired.</p>
-</li>
+<li>Possibility to add experimental evidence that a cloning step is successfully completed (e.g. sequencing file or gel electrophoresis image).</li>
+<li>Parallel collection of resources that are planned or in production (have not yet been experimentally generated or verified). These will be selectable for further manipulations, but will not be part of the main collection.</li>
+<li>Exporting a subset of your collection for a publication in pdf, word, latex, pdf or plain text.</li>
+<li>Integration with Electronic Laboratory Notebooks, so that you can reference the strains from your Genestorian collection when you document your experiments, or in the inventory management from Electronic Laboratory Notebooks.</li>
+<li>&mldr; any ideas? Write to us at <a href=mailto:genestorian@gmail.com>genestorian@gmail.com</a>.</li>
 </ul>
-<p>At this point, you are probably thinking: 🤔 Well, I am sure there is already an Open Standard to encode this information given that these operations are routinely done in <strong>hundreds of laboratories</strong> using cutting-edge technology, working on different model organisms, storing <strong>millions of strains</strong> used to study embryonic development, cancer, ageing, and other biological processes.</p>
-<div class="alert alert-danger text-center mx-auto" role=alert style=width:fit-content><strong>🚨Spoiler alert🚨</strong><br>That is not the case</div>
-<p>The inventories of strain collections are typically kept as plain text in spreadsheets or similar tables. This is prone to errors and inconsistency because genotypes are input manually as plain text.</p>
-<h3 id=how-we-want-to-solve-it>How we want to solve it</h3>
-<p>We want to extend the <a href=https://sbolstandard.org/>Synthetic Biology Open Language (SBOL)</a>, an open standard for the representation of DNA. SBOL currently has abstract functionality for linking entities to their ancestors through an experimental step, but no specific implementations of concrete experimental procedures that combine existing sequences exist. Basically, we can represent that <code>A</code> comes from <code>B</code>, but no software tools are available to systematically generate <code>B</code> from <code>A</code> by reading experimental information nor verify that <code>B</code> comes from <code>A</code> if the experimental information is provided. We want to implement this functionality, and make a web application where researchers can document the generation of strains and recombinant DNA.</p>
-<h3 id=what-you-can-do-during-your-internship>What you can do during your internship</h3>
-<p>An important challenge for the project is to migrate data from spreadsheets to the database. You will develop a first version of a tool to perform the data refinement required to migrate from spreadsheet to the database. The task will require:</p>
-<ul>
-<li>From a table where the genotypes of strains are represented as strings, identify the allele names.</li>
-<li>See if those alleles correspond to known alleles for that organism (from lists that are available online).</li>
-<li>Extract the information of in which strains a new allele was generated, and the relationships parent-child between strains. How this information is recorded in the spreadsheet (if it is recorded at all) will very likely vary.</li>
-<li>Score the predictions depending on certainty.</li>
-<li>Format those predictions os that they can be imported into the database.</li>
-<li>(Optional) develop a system for users to validate or change the predictions.</li>
-<li>(Optional) develop a web interface for users to input their data, browse through the predictions, and validate or change them there.</li>
-</ul>
-<p>Questions? Comments? <a href=mailto:genestorian@gmail.com>Send an email!</a></p>
+<h3 id=how-will-i-be-able-to-use-genestorian-in-the-future>How will I be able to use Genestorian in the future?</h3>
+<p>All the features of Genestorian are free and Open Source, so you will be able to install it in your institution servers or the cloud. We also plan to offer hosting and pro support as a service in the future.</p>
 </div>
 </div>
 </div>
