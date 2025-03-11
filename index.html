@@ -1,45 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Manuel Lera-Ramírez</title>
-    <meta charset="utf-8" />
-    <style>
-      .icon-row {
-        font-size: x-large;
-      }
-    </style>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
-  <body>
-    <div class="container col-7">
-      <h1 class="text-center my-4">Manuel Lera-Ramírez</h1>
 
-      <p >Hello! I am Manu, a biologist turned developer. I am part of the <a href="http://bahlerlab.info">Bähler lab</a> in University College London.</p>
+<head>
+  <title>Manuel Lera-Ramírez</title>
+  <meta charset="utf-8" />
+  <style>
+    .icon-row {
+      font-size: x-large;
+    }
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-      <p class="mb-0">I am currently working on <a href="https://shareyourcloning.netlify.app//">ShareYourCloning</a>, a project to develop:</p>
-      <ul>
-        <li>A data model to represent cloning strategies</li>
-        <li>A web interace to plan your cloning and export it in that format</li>
-      </ul>
-
-      <p>If you are interested, visit the <a href="https://github.com/manulera/ShareYourCloning">ShareYourCloning repository</a>.</p>
-
-      <p>All this is part of a bigger project, <a href="https://genestorian.org">Genestorian</a>, which aims to create an Open Source web application to manage laboratory collections of plasmids, strains and cell lines. You can find a good introduction to this project in my last <a href="https://manulera.github.io/poster_pombe2023/">conference poster</a></p>
-
-      <!-- <h2>Funding</h2>
-
-      <p>This project is supported by the Engineering and Medical Sciences Council, grant number EP/Y024591/1.</p> -->
-      <p>If any of this sounds interesting, get in touch!</p>
+<body class="d-flex flex-column min-vh-100 mb-4">
+  <div class="container col-6 text-center">
+    <div class="text-center my-4">
+      <img src="profile_picture2.jpg" alt="Manuel Lera-Ramírez" class="rounded-circle mb-3"
+        style="width: 200px; height: 200px; object-fit: cover;">
+      <h1>Manuel Lera-Ramírez</h1>
       <div class="icon-row text-center">
         <a href="mailto:manuel.lera-ramirez@ucl.ac.uk"><i class="fa-solid fa-envelope"></i></a>
-        <a href="https://orcid.org/0000-0002-8666-9746"><i class="fa-brands fa-orcid"></i></a>
-        <a href="https://twitter.com/manu_lera"><i class="fa-brands fa-twitter" height="30px"></i></a>
-        <a href="https://www.linkedin.com/in/manuel-lera-ram%C3%ADrez-997b629a/"><i class="fa-brands fa-linkedin"></i></i></a>
+        <a target="_blank" href="https://orcid.org/0000-0002-8666-9746"><i class="fa-brands fa-orcid"></i></a>
+        <a target="_blank" href="https://bsky.app/profile/manu-lera.bsky.social"><i class="fa-brands fa-bluesky"
+            height="30px"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/manuel-lera-ram%C3%ADrez-997b629a/"><i
+            class="fa-brands fa-linkedin"></i></i></a>
       </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+
+    <p>Hello! I am Manu, a biologist and Open Source enthusiast. I did my PhD <a target="_blank"
+        href="https://elifesciences.org/articles/72630">using yeast genetics to study cell
+        division</a> and then worked in <a target="_blank" href="https://www.pombase.org">PomBase</a>, a genetics and
+      genomics database.
+    </p>
+
+    <p>I always found that existing software tools for DNA engineering were very limiting, and
+      started <a target="_blank" href="https://github.com/manulera/OpenCloning">OpenCloning</a>, an Open Source web
+      application to plan and document DNA engineering.</p>
+
+    <h2>Why OpenCloning?</h2>
+
+    <p>DNA engineering is somewhat similar to software development. Bioscientists engineer DNA sequences to grant new
+      properties to cells, or to study the functions of genes in a similar way that we modify code to develop new
+      features.</p>
+
+    <p>However, <strong>bioengineering still lacks a "version control" system</strong>, and popular proprietary
+      solutions don't track
+      changes or do so in a proprietary format that cannot be used elsewhere.</p>
+
+    <p>Beyond the usual limitations of UI-only vendor lock-in platforms, the <strong>lack of standards hinders
+        automation</strong>, which is
+      a <strong>huge bottleneck in bioengineering</strong>.</p>
+
+  </div>
+  <div class="container col-8 text-center">
+    <h2 class="mb-3">OpenCloning value proposition</h2>
+
+
+    <div class="d-flex flex-wrap justify-content-center gap-3">
+      <div class="card" style="width: 13rem">
+        <div class="card-body">
+          <h5 class="card-title">🧬 Data Model</h5>
+          <p class="card-text">Standard data model to represent DNA engineering steps.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 13rem">
+        <div class="card-body">
+          <h5 class="card-title">💻 Web Interface</h5>
+          <p class="card-text">Intuitively plan your designs.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 13rem">
+        <div class="card-body">
+          <h5 class="card-title">🤖 Automation</h5>
+          <p class="card-text">Write scripts to generate your cloning plans.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 13rem">
+        <div class="card-body">
+          <h5 class="card-title">🔧 Integrations</h5>
+          <p class="card-text">e.g. with <a target="_blank"
+              href="https://github.com/manulera/OpenCloning/issues/36#issuecomment-2691214941">Electronic Lab
+              Notebooks</a>.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 13rem">
+        <div class="card-body">
+          <h5 class="card-title">🔍 Database</h5>
+          <p class="card-text">For full traceability of all your sequences.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <h2 class="mt-3">Interested?</h2>
+
+    <div class="mb-2">🌐 Try it at <a target="_blank" href="https://opencloning.org">opencloning.org</a></div>
+
+    <div class="mb-2">🎥 See a <a target="_blank"
+        href="https://github.com/manulera/OpenCloning/blob/main/examples/example_workflow.ipynb">
+        demo video</a>.</div>
+
+    <div class="mb-4">
+      📧 Get in touch via <a href="mailto:manuel.lera-ramirez@ucl.ac.uk">email</a>
+    </div>
+
+
+  </div>
+  </div>
+
+</body>
+
 </html>
