@@ -16,7 +16,7 @@ If you use VSCode, you can install the [Live Server extension](https://marketpla
 ### Dependencies
 The site uses:
 - Bootstrap 5.3.2 (loaded via CDN)
-- Font Awesome 6.4.2 (loaded via CDN)
+- Font Awesome 6.7.2 (loaded via CDN)
 
 Simply opening `index.html` will render the complete personal website with all styling and icons intact.
 
